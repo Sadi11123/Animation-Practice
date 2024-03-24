@@ -1,0 +1,50 @@
+.brand {
+    width: 100%;
+    height: 180px;
+    }
+    .brand-name {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 40.3px;
+        margin-top: 70px;
+        margin-left: 280px;
+        width: 1359px;
+
+    }
+    .brand-name img {
+        width: 127px;
+        height: 38px;
+    }
+   
+    @keyframes brand-name {
+        from {
+            transform: translateX(-50px);
+        }
+
+        to {
+            transform: translateX(0);
+        }
+    }
+    .brand-name {
+        
+        animation: brand-name 5s ease-in-out infinite;
+        /*
+        transform-origin:50px 5px;
+        transition:transform 1s ease-in-out 0s;
+        animation-duration: 2.2s;
+        animation-name: brand-name;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+
+        
+        animation-name: brand-name;
+        animation-duration: 1s;
+        animation-timing-function: ease-in;
+        animation-delay: 0s;
+        animation-iteration-count:2;
+        animation-direction: normal;
+        animation-fill-mode: none;
+    */
+    }
+    @media (prefers-reduced-motion: no-preference)
